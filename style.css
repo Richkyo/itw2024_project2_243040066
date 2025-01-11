@@ -1,0 +1,43 @@
+section {
+    background-color: rgb(218, 214, 214);
+}
+
+.first {
+    padding-top: 6rem;
+    padding-bottom: 15rem;
+    width: fit-content;
+}
+
+.Home {
+    background-image: url(img/background.jpg);
+}
+
+.image-about {
+    width: fit-content;
+}
+
+.custom-card {
+    width: 90%;  /* Mengatur lebar card menjadi 90% dari lebar elemen induk (parent) */
+    max-width: 300px; /* Menetapkan lebar maksimal card */
+    height: 400px; /* Mengatur tinggi card */
+    margin: 0 auto; /* Menyejajarkan card di tengah */
+}
+
+.card-img-top {
+    width: 100%; /* Membuat gambar memenuhi lebar card */
+    height: 200px; /* Menentukan tinggi gambar */
+    object-fit: cover; /* Menjaga gambar tetap mengisi area tanpa merusak rasio aspek */
+}
+
+.card-body {
+    background-color: rgb(231, 62, 62);
+}
+ 
+.container-1 {
+    background-color: rgb(250, 78, 78);
+}
+
+.container {
+    padding-top: 8rem;
+    padding-bottom: 3rem;
+}
